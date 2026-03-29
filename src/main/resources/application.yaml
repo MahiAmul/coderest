@@ -1,3 +1,5 @@
 spring:
   application:
     name: coderest
+
+hello.message: ${HELLO_MESSAGE:Hello, World from env!}
