@@ -9,7 +9,7 @@ import org.springframework.web.bind.annotation.RestController;
 @RestController
 @SpringBootApplication
 public class CoderestApplication {
-	@Value("${app.message}")
+	@Value("${hello.message}")
 	String message;
 	@GetMapping("/hello")
 	public String hello() {
